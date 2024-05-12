@@ -19,7 +19,22 @@ Install the dependencies with
 ```pip install -r requirements.txt```
 
  It's necessary to have opencv installed (or in a virtual enviroment)
+ 
+ ## Various ways to compare
 
-To run the code with norm as the distance, use the following command:
+There are 3 broad comparing techniques used: Norm distance (less implies closer), Hamming Distance (less implies closer) and Consine similarity (more implies closer). There is also an option to have lfsr encryption or not. So, in total, there are 6 possibilities to run the code:
+
+| Description | Filename |
+| ------ | ------ |
+| Norm without lfsr | main.py |
+| Norm with lfse | [main_lfsr.py |
+| Hamming distance without lfsr | main2.py |
+| Hamming distance with lfsr | main2_lfsr.py |
+| Cosine Similarity without lfsr | main3.py |
+| Cosine Similarity with lfsr | main3_lfsr.py |
+| Lfsr code (standalone) | lfsr.py
+
+
+To run the code with norm as the distance without lfsr encryption, use the following command:
 
 ```python main.py  <path_to_directory>```

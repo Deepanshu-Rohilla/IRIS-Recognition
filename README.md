@@ -1,3 +1,7 @@
+# Biometric Sytem for Iris Recognition
+
+Abstract: This project intends to identify humans by they iris using techniques of image processing. Given an image of eyes, return a validation of those eyes.
+
 Requirements:
 
 ```
@@ -16,6 +20,6 @@ Install the dependencies with
 
  It's necessary to have opencv installed (or in a virtual enviroment)
 
-To create the datababase from the  CASIA dataset: 
+To run the code with norm as the distance, use the following command:
 
 ```python main.py  <path_to_directory>```
